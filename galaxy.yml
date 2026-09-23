@@ -1,0 +1,25 @@
+---
+namespace: khangvum
+name: hyperv
+version: 1.0.0
+readme: README.md
+authors:
+  - Khang Vu <kvu@khangvum.com>
+description: Ansible collection for managing Microsoft Hyper-V virtualization infrastructure
+license_file: LICENSE
+tags:
+  - hyperv
+  - microsoft
+  - virtualization
+  - windows
+  - cloud
+  - infrastructure
+  - khangvum
+repository: https://github.com/khangvum-com/khangvum.hyperv
+homepage: https://github.com/khangvum-com/khangvum.hyperv
+issues: https://github.com/khangvum-com/khangvum.hyperv/issues
+build_ignore:
+  - .gitignore
+  - .gitattributes
+  - .github/
+  - .vscode/
