@@ -14,9 +14,9 @@ An **_agentless Hyper-V management solution_** powered by **_Ansible_**, designe
 | Module                                | Description                                                                                     |
 | ------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | `khangvum.hyperv.hard_disk`           | Attach, detach, or relocate **_VHD/VHDX virtual hard disks_** across target storage controllers |
+| `khangvum.hyperv.host_info`           | Gather system facts, **_hardware resources_**, **_OS metrics_**, and **_hypervisor status_**    |
 | `khangvum.hyperv.host`                | **_Host-level_** default **_storage paths_** and **_global settings_**                          |
-| `khangvum.hyperv.hv_host_info`        | Gather system facts, **_hardware resources_**, **_OS metrics_**, and **_hypervisor status_**    |
 | `khangvum.hyperv.network_adapter`     | Configure **_virtual network adapters_**, **_VLAN tagging_**, static MACs, and bandwidth limits |
-| `khangvum.hyperv.vm`                  | **_VM provisioning_**, hardware configuration, and **_deprovisioning_**                         |
 | `khangvum.hyperv.vm_automatic_action` | Manage **_Automatic Start_** and **_Automatic Stop_** behaviors for guest VMs                   |
+| `khangvum.hyperv.vm`                  | **_VM provisioning_**, hardware configuration, and **_deprovisioning_**                         |
 | `khangvum.hyperv.vswitch`             | **_Virtual switch_** management                                                                 |
