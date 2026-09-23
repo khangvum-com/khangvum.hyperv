@@ -78,7 +78,7 @@ options:
       - Minimum bandwidth weight (1 to 100) when using weight-based quality of service (QoS).
     type: int
 author:
-  - Ansible Cloud Team (@ansible)
+  - Khang Vu (@khangvum)
 """
 
 EXAMPLES = r"""
