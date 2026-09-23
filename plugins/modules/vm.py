@@ -112,9 +112,9 @@ options:
       - Network adapters to attach to the VM, each bound to a named virtual switch.
       - At creation, the default adapter Hyper-V creates automatically is removed first,
         and only the adapters listed here are added.
-      - On an existing VM, this is additive: adapters listed here are added if missing or
+      - "On an existing VM, this is additive: adapters listed here are added if missing or
         reconnected if bound to the wrong switch. Adapters already on the VM but not
-        listed here are left alone, not removed.
+        listed here are left alone, not removed."
     type: list
     elements: dict
     suboptions:
