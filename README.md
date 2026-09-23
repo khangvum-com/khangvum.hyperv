@@ -14,5 +14,5 @@ An **_agentless Hyper-V management solution_** powered by **_Ansible_**, designe
 | Module                    | Description                                                 |
 | ------------------------- | ----------------------------------------------------------- |
 | `khangvum.hyperv.host`    | **_Host-level_** default **_storage paths_** and **_global settings_**        |
-| `khangvum.hyperv.vswitch` | **_Virtual switch_** management                                   |
 | `khangvum.hyperv.vm`      | **_VM provisioning_**, hardware configuration, and **_deprovisioning_** |
+| `khangvum.hyperv.vswitch` | **_Virtual switch_** management                                   |
