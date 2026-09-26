@@ -2,6 +2,10 @@
 
 An **_agentless Hyper-V management solution_** powered by **_Ansible_**, designed to streamline **_virtualization infrastructure_** on **_Windows Server_** and **_Windows Pro_** hosts. This collection provides custom modules for managing **_host storage paths_**, **_virtual switches_**, **_virtual machines_**, **_VHDX disks_**, and **_guest network adapters_** by leveraging **_idempotent configuration_** and **_Infrastructure as Code_** (**_IaC_**) principles across your hypervisor fleet.
 
+[![Release Ansible Collection](https://github.com/khangvum-com/khangvum.hyperv/actions/workflows/release.yml/badge.svg)](https://github.com/khangvum-com/khangvum.hyperv/actions/workflows/release.yml)
+[![Ansible Lint & Build Check](https://github.com/khangvum-com/khangvum.hyperv/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/khangvum-com/khangvum.hyperv/actions/workflows/ansible-lint.yml)
+[![Security Scan](https://github.com/khangvum-com/khangvum.hyperv/actions/workflows/security.yml/badge.svg)](https://github.com/khangvum-com/khangvum.hyperv/actions/workflows/security.yml)
+
 ## Features
 
 - **_Modular collection design_** separating host setup, switch creation, VM specs, storage, and networking.
